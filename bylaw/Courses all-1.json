@@ -1,0 +1,394 @@
+{
+  "title": "Detailed Course-Level Academic Requirements - all courses",
+  "General_requirements":
+  {
+    "total_credit_hours": 12,
+    "notes":"all courses of general Requirements are with 2 credits hours",
+    "mandatory":
+    [
+      {"course_code": "HU111", "course_name": "Technical Report Writing","credits": 2,"prerequisites": ["None"]},
+      {"course_code": "HU112", "course_name": "Ethics and Professionalism", "credits": 2, "prerequisites": ["None"]},
+      {"course_code": "HU113","course_name": "Creative Thinking and Communication Skills","credits": 2,"prerequisites": ["None"]}
+    ],
+
+    "elective":
+    [
+      {"course_code": "HU121","course_name": "Fundamentals of Economics","credits": 2,"prerequisites": ["None"]},
+      {"course_code": "DS251","course_name": "Fundamentals of Management","credits": 2,"prerequisites": ["Passing 30 Credit Hours"]},
+      {"course_code": "HU123","course_name": "Marketing and Sales","credits": 2,"prerequisites": ["None"]},
+      {"course_code": "HU114","course_name": "Fundamentals of Psychology","credits": 2,"prerequisites": ["None"]},
+      {"course_code": "HU115","course_name": "Fundamentals of Sociology","credits": 2,"prerequisites": ["None"]},
+      {"course_code": "HU116","course_name": "Comparative Politics","credits": 2,"prerequisites": ["None"]},
+      {"course_code": "HU117","course_name": "Human Rights","credits": 2,"prerequisites": ["None"]},
+      {"course_code": "HU118","course_name": "Selected Topics in Humanities","credits": 2,"prerequisites": ["None"]}
+    ]
+  },
+
+  "faculty_requirements":
+  {
+    "total_credit_hours": 57,
+    "Math_and_basic_Sciences":
+    {
+      "credit_hours": 21,
+      "mandatory":
+      [
+        {"course_code": "MA111","course_name": "Math-1","credits": 3,"prerequisites": ["None"]},
+        {"course_code": "MA112","course_name": "Discrete Mathematics","credits": 3,"prerequisites": ["Math-1 (MA111)"]},
+        {"course_code": "MA113","course_name": "Math-2","credits": 3,"prerequisites": ["Math-1 (MA111)"]},
+        {"course_code": "MA214","course_name": "Math-3","credits": 3,"prerequisites": ["Math-2 (MA113)"]},
+        {"course_code": "IT111","course_name": "Electronics","credits": 3,"prerequisites": ["None"]},
+        { "course_code": "ST121","course_name": "Probability and Statistics-1","credits": 3,"prerequisites": ["Math-1 (MA111)"]},
+        {"course_code": "ST222","course_name": "Probability and Statistics-2","credits": 3,"prerequisites": ["Probability and Statistics-1 (ST121)"]}
+      ]
+    },
+
+    "fundamentals_computer_science":
+    {
+      "credit_hours": 36,
+      "mandatory":
+      [
+        {"course_code": "CS111","course_name": "Fundamentals of Computer Science","credits": 3,"prerequisites": ["None"]},
+        {"course_code": "CS112","course_name": "Structured Programming","credits": 3,"prerequisites": ["Fundamentals of Computer Science (CS111)"]},
+        {"course_code": "CS213","course_name": "Object Oriented Programming","credits": 3,"prerequisites": ["Structured Programming (CS112)"]},
+        {"course_code": "CS214","course_name": "Data Structures","credits": 3,"prerequisites": ["Object Oriented Programming (CS213)"]},
+        {"course_code": "CS251","course_name": "Introduction to Software Engineering","credits": 3,"prerequisites": ["Structured Programming (CS112)"]},
+        {"course_code": "DS211","course_name": "Introduction to Operations Research and Decision Support","credits": 3,"prerequisites": ["Structured Programming (CS112)", "Probability and Statistics-1 (ST121)" ]},
+        { "course_code": "IS211","course_name": "Introduction to Database Systems","credits": 3,"prerequisites": ["Structured Programming (CS112)"]},
+        {"course_code": "IS231","course_name": "Web Technology","credits": 3,"prerequisites": ["Object Oriented Programming (CS213)"]},
+        {"course_code": "IT212","course_name": "Logic Design","credits": 3,"prerequisites": ["Electronics (IT111)"]},
+        {"course_code": "IT221","course_name": "Computer Networks Technology","credits": 3,"prerequisites": ["Fundamentals of Computer Science (CS111)"]},
+        {"course_code": "CS321","course_name": "Algorithms Analysis and Design","credits": 3,"prerequisites": ["Data Structures (CS214)"]},
+        {"course_code": "CS341","course_name": "Operating Systems","credits": 3,"prerequisites": ["Data Structures (CS214)"]}
+      ]
+    }
+  },
+
+  "Specialization_requirements":
+  {
+    "Computer_Science_(CS)_departement":
+    {
+      "total_credit_hours": 63,
+      "applied_courses":
+      {
+        "credit_hours": 39,
+        "mandatory": 
+        [
+          {"course_code": "CS316","course_name": "Advanced Data Structures", "credits": 3,"prerequisites": ["Data Structures (CS214)"]},
+          {"course_code": "CS322","course_name": "Concepts of Programming Languages","credits": 3,"prerequisites": ["Advanced Data Structures (CS316)"]},
+          {"course_code": "CS331","course_name": "Computer Organization and Architecture","credits": 3,"prerequisites": ["Data Structures (CS214)", "Logic Design (IT212)"]},
+          { "course_code": "CS342","course_name": "Advanced Operating Systems","credits": 3,"prerequisites": ["Operating Systems (CS341)"]},
+          {"course_code": "CS352","course_name": "Advanced Software Engineering","credits": 3,"prerequisites": ["Introduction to Software Engineering (CS251)"]},
+          {"course_code": "CS361","course_name": "Artificial Intelligence","credits": 3,"prerequisites": ["Data Structures (CS214)"]},
+          {"course_code": "CS371","course_name": "High Performance Computing","credits": 3, "prerequisites": ["Operating Systems (CS341)"]},
+          {"course_code": "IT351","course_name": "Information Theory and Data Compression","credits": 3,"prerequisites": ["Math-3 (MA214)", "Object Oriented Programming (CS213)"]},
+          {"course_code": "IT361","course_name": "Computer Graphics","credits": 3,"prerequisites": ["Structured Programming (CS112)"]},
+          {"course_code": "CS423","course_name": "Compilers","credits": 3,"prerequisites": ["Concepts of Programming Languages (CS322)"]},
+          {"course_code": "CS432","course_name": "Computation Theory","credits": 3,"prerequisites": ["Discrete Mathematics (MA112)", "Math-3 (MA214)"]},
+          {"course_code": "CS462","course_name": "Machine Learning","credits": 3,"prerequisites": ["Probability and Statistics-2 (ST222)", "Math-3 (MA214)", "Object Oriented Programming (CS213)"]},
+          {"course_code": "CS472","course_name": "Cloud Computing","credits": 3,"prerequisites": ["Advanced Operating Systems (CS342)"]}
+        ],
+
+        "elective": 
+        {
+          "credit_hours": 18,
+          "student_choice": "Student selects courses based on interest from department offerings",
+          "description": "The student must choose 12 credit hours of elective courses related to the department. These can be 6 credit hours from intra-departmental electives or other elective or mandatory courses from different departments.",
+          "courses":
+          [
+            [
+              { "course_code": "CS434", "course_name": "Big Data Analysis", "credits": 3, "prerequisites": ["Introduction to Database Systems (IS211)", "Machine Learning (CS462)"] },
+              { "course_code": "CS435", "course_name": "Bioinformatics Systems", "credits": 3, "prerequisites": ["Algorithms Analysis and Design (CS321)"] },
+              { "course_code": "CS436", "course_name": "Mobile Computing", "credits": 3, "prerequisites": ["Operating Systems (CS341)"] },
+              { "course_code": "CS453", "course_name": "Software Testing and Quality Assurance", "credits": 3, "prerequisites": ["Algorithms Analysis and Design (CS321)", "Advanced Software Engineering (CS352)"] },
+              { "course_code": "CS454", "course_name": "Software Security", "credits": 3, "prerequisites": ["Algorithms Analysis and Design (CS321)", "Advanced Software Engineering (CS352)"] },
+              { "course_code": "CS455", "course_name": "Human Computer Interaction", "credits": 3, "prerequisites": ["Algorithms Analysis and Design (CS321)", "Advanced Software Engineering (CS352)"] },
+              { "course_code": "CS456", "course_name": "Software Design and Architecture", "credits": 3, "prerequisites": ["Algorithms Analysis and Design (CS321)", "Advanced Software Engineering (CS352)"] },
+              { "course_code": "CS457", "course_name": "Selected Topics in Software Engineering", "credits": 3, "prerequisites": ["Advanced Software Engineering (CS352)"] },
+              { "course_code": "CS463", "course_name": "Natural Language Processing", "credits": 3, "prerequisites": ["Machine Learning (CS462)"] },
+              { "course_code": "CS464", "course_name": "Semantic Web and Ontology", "credits": 3, "prerequisites": ["Artificial Intelligence (CS361)", "Web Technology (IS231)"] },
+              { "course_code": "CS465", "course_name": "Soft Computing", "credits": 3, "prerequisites": ["Probability and Statistics-1 (ST121)", "Math-2 (MA113)"] },
+              { "course_code": "CS466", "course_name": "Knowledge Discovery", "credits": 3, "prerequisites": ["Introduction to Database Systems (IS211)", "Artificial Intelligence (CS361)"] },
+              { "course_code": "CS467", "course_name": "Selected Topics in Artificial Intelligence", "credits": 3, "prerequisites": ["Machine Learning (CS462)"] },
+              { "course_code": "CS473", "course_name": "Advanced High Performance Computing", "credits": 3, "prerequisites": ["High Performance Computing (CS371)", "Advanced Operating Systems (CS342)"] },
+              { "course_code": "CS474", "course_name": "Selected Topics in High Performance Computing", "credits": 3, "prerequisites": ["Advanced High Performance Computing (CS473)"] },
+              { "course_code": "CS495", "course_name": "Selected Topics in Computer Science–1", "credits": 3, "prerequisites": ["Concepts of Programming Languages (CS322)"] },
+              { "course_code": "CS496", "course_name": "Selected Topics in Computer Science–2", "credits": 3, "prerequisites": ["Concepts of Programming Languages (CS322)"] }
+            ]
+            
+          ]
+        }
+      },
+
+      "graduation_project":
+      {
+        "course_name": "Graduation Project",
+        "couse_code": "CS498",
+        "prerequisites": ["Passing 85 Credit Hours"],
+        "credit_hours": 6,
+        "type": "mandatory"
+      }
+    },
+
+    "Information_Technology_(IT)_departement":
+    {
+      "total_credit_hours": 63,
+      "applied_courses":
+      {
+        "credit_hours": 39,
+        "mandatory":
+        [
+          [
+            { "course_code": "IT313", "course_name": "Computer Architecture", "credits": 3, "prerequisites": ["Logic Design (IT212)"] },
+            { "course_code": "IT314", "course_name": "Micro Controllers", "credits": 3, "prerequisites": ["Logic Design (IT212)"] },
+            { "course_code": "IT322", "course_name": "Advanced Computer Networks", "credits": 3, "prerequisites": ["Computer Networks Technology (IT221)", "Data Communication (IT331)"] },
+            { "course_code": "IT331", "course_name": "Data Communication", "credits": 3, "prerequisites": ["Math-2 (MA113)"] },
+            { "course_code": "IT341", "course_name": "Signals and Systems", "credits": 3, "prerequisites": ["Math-3 (MA214)"] },
+            { "course_code": "IT342", "course_name": "Digital Signal Processing", "credits": 3, "prerequisites": ["Signals and Systems (IT341)"] },
+            { "course_code": "IT351", "course_name": "Information Theory and Data Compression", "credits": 3, "prerequisites": ["Math-3 (MA214)", "Object Oriented Programming (CS213)"] },
+            { "course_code": "IT352", "course_name": "Pattern Recognition", "credits": 3, "prerequisites": ["Probability and Statistics-2 (ST222)", "Signals and Systems (IT341)"] },
+            { "course_code": "IT361", "course_name": "Computer Graphics", "credits": 3, "prerequisites": ["Structured Programming (CS112)"] },
+            { "course_code": "IT423", "course_name": "Information and Computer Networks Security", "credits": 3, "prerequisites": ["Advanced Computer Networks Technology (IT322)"] },
+            { "course_code": "IT432", "course_name": "Communication Technology", "credits": 3, "prerequisites": ["Computer Networks Technology (IT221)"] },
+            { "course_code": "IT443", "course_name": "Image Processing", "credits": 3, "prerequisites": ["Signals and Systems (IT341)"] },
+            { "course_code": "IT444", "course_name": "Multimedia Mining", "credits": 3, "prerequisites": ["Pattern Recognition (IT352)"] }
+          ]
+          
+        ],
+
+        "elective":
+        {
+          "credit_hours": 18,
+          "student_choice": "Student selects courses based on interest from department offerings",
+          "description": "The student must choose 12 credit hours of elective courses related to the department. These can be 6 credit hours from intra-departmental electives or other elective or mandatory courses from different departments.",
+          "courses":
+          [
+            [
+              { "course_code": "IT415", "course_name": "Machine Vision", "credits": 3, "prerequisites": ["Image Processing (IT443)", "Computer Graphics (IT361)"] },
+              { "course_code": "IT416", "course_name": "Robotics", "credits": 3, "prerequisites": ["Micro Controllers (IT314)"] },
+              { "course_code": "IT417", "course_name": "Embedded Systems", "credits": 3, "prerequisites": ["Micro Controllers (IT314)"] },
+              { "course_code": "IT424", "course_name": "Wireless and Mobile Networks", "credits": 3, "prerequisites": ["Advanced Computer Networks (IT322)"] },
+              { "course_code": "IT425", "course_name": "Cloud Computing Networks", "credits": 3, "prerequisites": ["Advanced Computer Networks (IT322)"] },
+              { "course_code": "IT426", "course_name": "Internet Programming and Protocols", "credits": 3, "prerequisites": ["Advanced Computer Networks (IT322)"] },
+              { "course_code": "IT427", "course_name": "Optical Networks", "credits": 3, "prerequisites": ["Advanced Computer Networks (IT322)"] },
+              { "course_code": "IT428", "course_name": "Wireless Sensor Networks", "credits": 3, "prerequisites": ["Wireless and Mobile Networks (IT424)"] },
+              { "course_code": "IT429", "course_name": "Selected Topics in Computer Networks", "credits": 3, "prerequisites": ["Advanced Computer Networks (IT322)"] },
+              { "course_code": "IT433", "course_name": "Cyber Security", "credits": 3, "prerequisites": ["Information and Computer Networks Security (IT423)"] },
+              { "course_code": "IT445", "course_name": "Advanced Image Processing", "credits": 3, "prerequisites": ["Image Processing (IT443)"] },
+              { "course_code": "IT446", "course_name": "Virtual Reality", "credits": 3, "prerequisites": ["Image Processing (IT443)", "Computer Graphics (IT361)"] },
+              { "course_code": "IT447", "course_name": "Speech Processing", "credits": 3, "prerequisites": ["Digital Signal Processing (IT342)"] },
+              { "course_code": "IT448", "course_name": "Selected Topics in Multimedia", "credits": 3, "prerequisites": ["Pattern Recognition (IT352)"] },
+              { "course_code": "IT453", "course_name": "Advanced Pattern Recognition", "credits": 3, "prerequisites": ["Pattern Recognition (IT352)"] },
+              { "course_code": "IT454", "course_name": "Human Language Technology", "credits": 3, "prerequisites": ["Pattern Recognition (IT352)"] },
+              { "course_code": "IT462", "course_name": "Advanced Computer Graphics", "credits": 3, "prerequisites": ["Computer Graphics (IT361)"] },
+              { "course_code": "IT463", "course_name": "Computer Animation", "credits": 3, "prerequisites": ["Computer Graphics (IT361)"] },
+              { "course_code": "IT471", "course_name": "Ubiquitous Computing", "credits": 3, "prerequisites": ["Advanced Computer Networks (IT322)", "Structured Programming (CS112)"] },
+              { "course_code": "IT472", "course_name": "Concurrency and Parallel Computing", "credits": 3, "prerequisites": ["Computer Architecture (IT313)", "Structured Programming (CS112)"] },
+              { "course_code": "IT473", "course_name": "Intelligent and Quantum Computing", "credits": 3, "prerequisites": ["Computer Architecture (IT313)", "Data Structures (CS214)"] },
+              { "course_code": "IT495", "course_name": "Selected Topics in Information Technology-1", "credits": 3, "prerequisites": ["Passing 60 Credit Hours"] },
+              { "course_code": "IT496", "course_name": "Selected Topics in Information Technology-2", "credits": 3, "prerequisites": ["Passing 60 Credit Hours"] }
+            ]
+            
+          ]
+        }
+      },
+
+      "graduation_project":
+      {
+        "course_name": "Graduation Project",
+        "couse_code": "IT498",
+        "prerequisites": ["Passing 85 Credit Hours"],
+        "credit_hours": 6,
+        "type": "mandatory"
+      }
+    },
+
+    "Information_System_(IS)_departement":
+    {
+      "total_credit_hours": 63,
+      "applied_courses":
+      {
+        "credit_hours": 39,
+        "mandatory":
+        [
+          [
+            { "course_code": "IS312", "course_name": "Database Management Systems", "credits": 3, "prerequisites": ["Introduction to Database Systems (IS211)", "Object Oriented Programming (CS213)"] },
+            { "course_code": "IS313", "course_name": "Data Warehousing", "credits": 3, "prerequisites": ["Introduction to Database Systems (IS211)"] },
+            { "course_code": "IS321", "course_name": "File Management and Processing", "credits": 3, "prerequisites": ["Data Structures (CS214)"] },
+            { "course_code": "IS322", "course_name": "Information Retrieval", "credits": 3, "prerequisites": ["Introduction to Database Systems (IS211)", "Probability and Statistics-2 (ST222)"] },
+            { "course_code": "IS332", "course_name": "Analysis and Design of Information Systems", "credits": 3, "prerequisites": ["Introduction to Database Systems (IS211)"] },
+            { "course_code": "IS333", "course_name": "Web-based Information Systems Development", "credits": 3, "prerequisites": ["Web Technology (IS231)"] },
+            { "course_code": "IS341", "course_name": "Business Process Management", "credits": 3, "prerequisites": ["Analysis and Design of Information Systems (IS332)"] },
+            { "course_code": "CS352", "course_name": "Advanced Software Engineering", "credits": 3, "prerequisites": ["Introduction to Software Engineering (CS251)"] },
+            { "course_code": "CS361", "course_name": "Artificial Intelligence", "credits": 3, "prerequisites": ["Data Structures (CS214)"] },
+            { "course_code": "IS414", "course_name": "Managing and Modeling Big Data", "credits": 3, "prerequisites": ["Database Management Systems (IS312)"] },
+            { "course_code": "IS422", "course_name": "Data Mining", "credits": 3, "prerequisites": ["Information Retrieval (IS322)"] },
+            { "course_code": "IS434", "course_name": "Service-Oriented Architecture", "credits": 3, "prerequisites": ["Web-based Information Systems Development (IS333)"] },
+            { "course_code": "CS462", "course_name": "Machine Learning", "credits": 3, "prerequisites": ["Probability and Statistics-1 (ST121)", "Math-3 (MA214)", "Object Oriented Programming (CS213)"] }
+          ]
+          
+        ],
+
+        "elective":
+        {
+          "credit_hours": 18,
+          "student_choice": "Student selects courses based on interest from department offerings",
+          "description": "The student must choose 12 credit hours of elective courses related to the department. These can be 6 credit hours from intra-departmental electives or other elective or mandatory courses from different departments.",
+          "courses": [
+            [
+              { "course_code": "IS331", "course_name": "Fundamentals of Information Systems", "credits": 3, "prerequisites": ["Introduction to Database Systems (IS211)"] },
+              { "course_code": "IS415", "course_name": "Cloud Database", "credits": 3, "prerequisites": ["Database Management Systems (IS312)"] },
+              { "course_code": "IS416", "course_name": "Distributed Database", "credits": 3, "prerequisites": ["Database Management Systems (IS312)"] },
+              { "course_code": "IS417", "course_name": "Selected Topics in Databases", "credits": 3, "prerequisites": ["Database Management Systems (IS312)"] },
+              { "course_code": "IS423", "course_name": "Business Process Mining", "credits": 3, "prerequisites": ["Business Process Management (IS341)"] },
+              { "course_code": "IS424", "course_name": "Selected Topics in Data Engineering", "credits": 3, "prerequisites": ["Database Management Systems (IS312)"] },
+              { "course_code": "IS435", "course_name": "Usability Engineering", "credits": 3, "prerequisites": ["Web Technology (IS231)"] },
+              { "course_code": "IS436", "course_name": "Enterprise Mobile Applications Development", "credits": 3, "prerequisites": ["Web Technology (IS231)"] },
+              { "course_code": "IS437", "course_name": "Information Systems Development Methodologies", "credits": 3, "prerequisites": ["Analysis and Design of Information Systems (IS332)"] },
+              { "course_code": "IS438", "course_name": "Management Information Systems", "credits": 3, "prerequisites": ["Analysis and Design of Information Systems (IS332)"] },
+              { "course_code": "IS439", "course_name": "Selected Topics in Advanced Information Systems", "credits": 3, "prerequisites": ["Analysis and Design of Information Systems (IS332)"] },
+              { "course_code": "IS442", "course_name": "Geographical Information Systems", "credits": 3, "prerequisites": ["Database Management Systems (IS312)"] },
+              { "course_code": "IS443", "course_name": "Information Systems Quality Assurance", "credits": 3, "prerequisites": ["Analysis and Design of Information Systems (IS332)"] },
+              { "course_code": "IS444", "course_name": "Information Systems Security and Risk Management", "credits": 3, "prerequisites": ["Analysis and Design of Information Systems (IS332)"] },
+              { "course_code": "IS445", "course_name": "Information Systems Audit and Control", "credits": 3, "prerequisites": ["Analysis and Design of Information Systems (IS332)"] },
+              { "course_code": "IS446", "course_name": "Enterprise Information Systems", "credits": 3, "prerequisites": ["Web-based Information Systems Development (IS333)"] },
+              { "course_code": "IS447", "course_name": "Information Systems Project Management", "credits": 3, "prerequisites": ["Analysis and Design of Information Systems (IS332)"] },
+              { "course_code": "IS448", "course_name": "E-Business", "credits": 3, "prerequisites": ["Analysis and Design of Information Systems (IS332)"] },
+              { "course_code": "IS449", "course_name": "Selected Topics in Information Systems Engineering", "credits": 3, "prerequisites": ["Web-based Information Systems Development (IS333)"] },
+              { "course_code": "IS495", "course_name": "Selected Topics in Information Systems-1", "credits": 3, "prerequisites": ["Analysis and Design of Information Systems (IS332)"] },
+              { "course_code": "IS496", "course_name": "Selected Topics in Information Systems-2", "credits": 3, "prerequisites": ["Analysis and Design of Information Systems (IS332)"] }
+            ]
+            
+          ]
+        }
+      },
+
+      "graduation_project":
+      {
+        "course_name": "Graduation Project",
+        "couse_code": "IS498",
+        "prerequisites": ["Passing 85 Credit Hours"],
+        "credit_hours": 6,
+        "type": "mandatory"
+      }
+    },
+
+    "Aritifical_Intelligence_(AI)_departement":
+    {
+      "total_credit_hours": 63,
+      "applied_courses":
+      {
+        "credit_hours": 39,
+        "mandatory":
+        [
+          {"course_code": "AI311","course_name": "Introduction to Logic","credits": 3,"prerequisites": ["Discrete Mathematics (MA112)", "Probability and Statistics-2 (ST222)"]},
+          {"course_code": "AI312","course_name": "Reasoning and Knowledge Representation","credits": 3,"prerequisites": ["Introduction to Logic (AI311)"]},
+          {"course_code": "AI313","course_name": "Autonomous Multiagent Systems","credits": 3,"prerequisites": ["Introduction to Logic (AI311)"]},
+          {"course_code": "AI321","course_name": "Theoretical Foundations of Machine Learning","credits": 3,"prerequisites": ["Math-3 (MA214)", "Probability and Statistics-2 (ST222)"]},
+          {"course_code": "AI322","course_name": "Supervised Learning","credits": 3,"prerequisites": ["Theoretical Foundations of Machine Learning (AI321)"]},
+          {"course_code": "AI331","course_name": "Theories of Mind","credits": 3,"prerequisites": ["Discrete Mathematics (MA112)"] },
+          {"course_code": "AI332","course_name": "Computational Cognitive Science","credits": 3,"prerequisites": ["Introduction to Logic (AI311)"]},
+          {"course_code": "AI414","course_name": "Processing of Formal and Natural Languages","credits": 3,"prerequisites": ["Introduction to Logic (AI311)"]},
+          {"course_code": "AI423","course_name": "Unsupervised Learning","credits": 3,"prerequisites": ["Theoretical Foundations of Machine Learning (AI321)"]},
+          {"course_code": "AI424","course_name": "Reinforcement Learning","credits": 3,"prerequisites": ["Supervised Learning (AI322)"]},
+          {"course_code": "AI441","course_name": "Intelligent Autonomous Robotics","credits": 3,"prerequisites": ["Supervised Learning (AI322)"]},
+          {"course_code": "CS331","course_name": "Computer Organization and Architecture","credits": 3,"prerequisites": ["Logic Design (IT212)", "Data Structures (CS214)"]},
+          {"course_code": "IT341","course_name": "Signals and Systems","credits": 3,"prerequisites": ["Math-3 (MA214)"]}
+        ],
+
+        "elective":
+        {
+          "credit_hours": 18,
+          "student_choice": "Student selects courses based on interest from department offerings",
+          "description": "The student must choose 12 credit hours of elective courses related to the department. These can be 6 credit hours from intra-departmental electives or other elective or mandatory courses from different departments.",
+          "courses":
+          [
+            {"course_code": "AI433","course_name": "Cognitive Robotics","credits": 3,"prerequisites": ["Supervised Learning (AI322)", "Intelligent Autonomous Robotics (AI441)"]},
+            {"course_code": "AI442","course_name": "Generative Adversarial Networks","credits": 3,"prerequisites": ["Supervised Learning (AI322)"]},
+            {"course_code": "AI443","course_name": "Fundamentals of Biometric Identification","credits": 3,"prerequisites": ["Supervised Learning (AI322)"]},
+            {"course_code": "AI444","course_name": "Brain-Computer Interfacing","credits": 3,"prerequisites": ["Supervised Learning (AI322)"]},
+            {"course_code": "AI445","course_name": "Principles of Quantum Artificial Intelligence","credits": 3,"prerequisites": ["Theoretical Foundations of Machine Learning (AI321)"]},
+            {"course_code": "AI446","course_name": "Business Intelligence: Strategies, Tools & Techniques","credits": 3,"prerequisites": ["Theoretical Foundations of Machine Learning (AI321)"]},
+            {"course_code": "AI447","course_name": "Artificial Intelligence for Cyber Security","credits": 3,"prerequisites": ["Supervised Learning (AI322)", "Computer Networks Technology (IT221)"]},
+            {"course_code": "CS435","course_name": "Bioinformatics Systems","credits": 3,"prerequisites": ["Algorithms Analysis and Design (CS321)"]},
+            {"course_code": "CS465","course_name": "Soft Computing","credits": 3,"prerequisites": ["Probability and Statistics-1 (ST121)", "Math-2 (MA113)"]},
+            {"course_code": "DS342","course_name": "Data Analytics","credits": 3,"prerequisites": ["Probability and Statistics-2 (ST222)"]},
+            {"course_code": "DS456","course_name": "Project Management","credits": 3,"prerequisites": ["Introduction to Operations Research and Decision Support (DS211)"]},
+            {"course_code": "IS322","course_name": "Information Retrieval","credits": 3,"prerequisites": ["Introduction to Database Systems (IS211)", "Probability and Statistics-2 (ST222)"]},
+            {"course_code": "IS435","course_name": "Usability Engineering","credits": 3,"prerequisites": ["Web Technology (IS231)"]},
+            {"course_code": "IT361","course_name": "Computer Graphics","credits": 3,"prerequisites": ["Structured Programming (CS112)"]},
+            {"course_code": "IT415","course_name": "Machine Vision","credits": 3,"prerequisites": ["Image Processing (IT443)", "Computer Graphics (IT361)"]},
+            {"course_code": "IT443","course_name": "Image Processing","credits": 3,"prerequisites": ["Signals and Systems (IT341)"]},
+            {"course_code": "IT446","course_name": "Virtual Reality","credits": 3,"prerequisites": ["Image Processing (IT443)", "Computer Graphics (IT361)"]},
+            {"course_code": "AI495","course_name": "Selected Topics in Artificial Intelligence-1","credits": 3,"prerequisites": ["Passing 60 Credit Hours"]},
+            {"course_code": "AI496","course_name": "Selected Topics in Artificial Intelligence-2","credits": 3,"prerequisites": ["Passing 60 Credit Hours"]}
+          ]
+        }
+      },
+
+      "graduation_project":
+      {
+        "course_name": "Graduation Project",
+        "couse_code": "AI498",
+        "prerequisites": ["Passing 85 Credit Hours"],
+        "credit_hours": 6,
+        "type": "mandatory"
+      }
+    },
+
+    "Decision_Support_and_Operations_Research_(DS)_departement":
+    {
+      "total_credit_hours": 63,
+      "applied_courses":
+      {
+        "credit_hours": 39,
+        "mandatory":
+        [
+          {"course_code": "DS312","course_name": "Decision Support and Future Studies Methodologies","credits": 3,"prerequisites": ["Introduction to Operations Research and Decision Support (DS211)"]},
+          {"course_code": "DS313","course_name": "Computational Intelligence","credits": 3,"prerequisites": ["Linear and Integer Programming (DS321)", "Probability and Statistics-2 (ST222)"]},
+          {"course_code": "DS321","course_name": "Linear and Integer Programming","credits": 3,"prerequisites": ["Introduction to Operations Research and Decision Support (DS211)", "Math-2 (MA113)"]},
+          {"course_code": "DS322","course_name": "Non-linear Programming","credits": 3,"prerequisites": ["Linear and Integer Programming (DS321)"]},
+          {"course_code": "DS323","course_name": "Dynamic Programming and Stochastic Modeling","credits": 3,"prerequisites": ["Linear and Integer Programming (DS321)"]},
+          {"course_code": "DS331","course_name": "System Modeling and Simulation","credits": 3,"prerequisites": ["Object Oriented Programming (CS213)"]},
+          {"course_code": "DS341","course_name": "Learning From Data","credits": 3,"prerequisites": ["Probability and Statistics-2 (ST222)"]},
+          {"course_code": "DS352","course_name": "Production and Operations Management","credits": 3,"prerequisites": ["Decision Support and Future Studies Methodologies (DS312)"]},
+          {"course_code": "CS361","course_name": "Artificial Intelligence","credits": 3,"prerequisites": ["Data Structures (CS214)"]},
+          {"course_code": "DS414","course_name": "Game Theory","credits": 3,"prerequisites": ["Probability and Statistics-2 (ST222)", "Linear and Integer Programming (DS321)"]},
+          {"course_code": "DS415","course_name": "Decision Theory","credits": 3,"prerequisites": ["Probability and Statistics-2 (ST222)", "Linear and Integer Programming (DS321)"]},
+          {"course_code": "DS424", "course_name": "Multi-objective Programming","credits": 3,"prerequisites": ["Non-linear Programming (DS322)"]},
+          {"course_code": "DS425","course_name": "Network Modeling and Optimization","credits": 3,"prerequisites": ["Dynamic Programming and Stochastic Modeling (DS323)"]}
+        ],
+
+        "elective":
+         {
+          "credit_hours": 18,
+          "student_choice": "Student selects courses based on interest from department offerings",
+          "description": "The student must choose 12 credit hours of elective courses related to the department. These can be 6 credit hours from intra-departmental electives or other elective or mandatory courses from different departments.",
+          "courses":
+          [
+            {"course_code": "DS342","course_name": "Data Analytics","credits": 3,"prerequisites": ["Probability and Statistics-2 (ST222)"]},
+            {"course_code": "DS343","course_name": "Probabilistic Reasoning","credits": 3,"prerequisites": ["Probability and Statistics-2 (ST222)"]},
+            {"course_code": "DS344","course_name": "Forecasting and Predictive Analytics","credits": 3,"prerequisites": ["Learning From Data (DS341)"]},
+            {"course_code": "DS416","course_name": "Strategic Decision Making","credits": 3,"prerequisites": ["Linear and Integer Programming (DS321)"]},
+            {"course_code": "DS432","course_name": "System Dynamics Modeling","credits": 3,"prerequisites": ["System Modeling and Simulation (DS331)"]},
+            {"course_code": "DS433","course_name": "Agent-Based Modeling and Complex Systems","credits": 3, "prerequisites": ["System Modeling and Simulation (DS331)"]},
+            {"course_code": "DS453","course_name": "Crisis Management","credits": 3,"prerequisites": ["Decision Support and Future Studies Methodologies (DS312)"]},
+            {"course_code": "DS454","course_name": "Service Management","credits": 3,"prerequisites": ["Decision Support and Future Studies Methodologies (DS312)"]},
+            {"course_code": "DS455","course_name": "Managerial Economics and Financial Analysis","credits": 3,"prerequisites": ["Decision Support and Future Studies Methodologies (DS312)"]},
+            {"course_code": "DS456","course_name": "Project Management","credits": 3,"prerequisites": ["Introduction to Operations Research and Decision Support (DS211)"]},
+            {"course_code": "DS495", "course_name": "Selected Topics in Operations Research and Decision Support-1","credits": 3,"prerequisites": ["Passing 60 Credit Hours"]},
+            {"course_code": "DS496","course_name": "Selected Topics in Operations Research and Decision Support-2","credits": 3,"prerequisites": ["Passing 60 Credit Hours"]}
+          ]
+        }
+      },
+
+      "graduation_project":
+      {
+        "course_name": "Graduation Project",
+        "couse_code": "DS498",
+        "prerequisites": ["Passing 85 Credit Hours"],
+        "credit_hours": 6,
+        "type": "mandatory"
+      }
+    }
+  }
+}

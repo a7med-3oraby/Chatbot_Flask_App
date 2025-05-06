@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Bylaw Assistant</title>
+    <style>
+        body { font-family: Arial; margin: 40px; background: #f0f0f0; }
+        form, .result { background: white; padding: 20px; border-radius: 8px; }
+    </style>
+</head>
+<body>
+    <h1>🎓 University Bylaw Assistant</h1>
+    <form method="post">
+        <label>❓ Enter your question:</label><br><br>
+        <input type="text" name="question" style="width: 80%;" required />
+        <button type="submit">Ask</button>
+    </form>
+
+    {% if answer %}
+    <div class="result">
+        <h3>📘 Response:</h3>
+        <p>{{ answer }}</p>
+    </div>
+    {% endif %}
+</body>
+</html>

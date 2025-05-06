@@ -1,0 +1,212 @@
+[
+  {
+    "title": "Credit Hour Limits for Regular Semesters",
+    "rules": [
+      {
+        "rule_id": 1,
+        "semester": "regular",
+        "min_credit_hours": 9,
+        "description": "Students may not exceed 9 credit hours unless they have fewer than 9 credit hours remaining to graduate."
+      },
+      {
+        "rule_id": 2,
+        "semester": "regular",
+        "condition": "GPA >= 2.0",
+        "max_credit_hours": 18,
+        "description": "Students with GPA >= 2.0 may register up to 18 credit hours."
+      },
+      {
+        "rule_id": 3,
+        "semester": "regular",
+        "condition": "1.0 <= GPA < 2.0",
+        "max_credit_hours": 15,
+        "description": "Students with GPA between 1.0 and 2.0 may register up to 15 credit hours."
+      },
+      {
+        "rule_id": 4,
+        "semester": "regular",
+        "condition": "GPA <= 1.0",
+        "max_credit_hours": 12,
+        "description": "Students with GPA less than or equal 1.0 may register up to 12 credit hours."
+      },
+      {
+        "rule_id": 5,
+        "semester": "regular",
+        "condition": "GPA >= 2.0 and expected_to_graduate = true",
+        "max_credit_hours": 21,
+        "description": "Students with GPA greater than or equal 2.0 may register up to 21 credit hours if they are expected to graduate."
+      }
+    ]
+  },
+  {
+    "title": "Credit Hour Limits for Summer Semester",
+    "rules": [
+      {
+        "rule_id": 6,
+        "semester": "summer",
+        "max_credit_hours": 6,
+        "description": "The maximum credit hours students can register in the summer semester is 6."
+      },
+      {
+        "rule_id": 7,
+        "semester": "summer",
+        "condition": "expected_to_graduate = true",
+        "max_credit_hours": 9,
+        "description": "Students expected to graduate may register up to 9 credit hours in the summer."
+      }
+    ]
+  },
+  {
+    "title": "Course Repetition Policy",
+    "rules": [
+      {
+        "rule_id": 8,
+        "description": "Repeat course policy",
+        "condition": "If a student fails a course (score < 64)",
+        "action": {
+          "repeat_required": true,
+          "grade_capping": "Maximum grade counted is D+ after retaking",
+          "gpa_effect": "Cumulative GPA is calculated based on the actual obtained grade, not capped grade",
+          "note": "Student must retake the course after failing and cannot receive more than D+ even if they score higher"
+        }
+      }
+    ]
+  },
+  {
+    "title": "Academic Level Progression",
+    "rules": [
+      {
+        "level": 1,
+        "condition": "Newly admitted or has not passed 27 credit hours",
+        "required_credits": "< 27"
+      },
+      {
+        "level": 2,
+        "condition": "Has passed 27 credit hours",
+        "required_credits": ">= 27"
+      },
+      {
+        "level": 3,
+        "condition": "Has passed 60 credit hours",
+        "required_credits": ">= 60"
+      },
+      {
+        "level": 4,
+        "condition": "Has passed 96 credit hours",
+        "required_credits": ">= 96"
+      }
+    ]
+  },
+  {
+    "title": "Available Departments",
+    "rules": [
+      {
+        "departments_count": 5,
+        "names": [
+          "Computer Science (CS)",
+          "Artificial Intelligence (AI)",
+          "Information System (IS)",
+          "Information Technology (IT)",
+          "Operation Research and Decision Support (DS)"
+        ]
+      }
+    ]
+  },
+
+  {
+    "title":"Calculations of grades and GPA",
+    "Grade Scale": [
+      {
+        "Grade": "A+",
+        "Percentage Range": "90% and above",
+        "GPA": 4.0
+      },
+      {
+        "Grade": "A",
+        "Percentage Range": "85% to less than 90%",
+        "GPA": 3.7
+      },
+      {
+        "Grade": "B+",
+        "Percentage Range": "80% to less than 85%",
+        "GPA": 3.3
+      },
+      {
+        "Grade": "B",
+        "Percentage Range": "75% to less than 80%",
+        "GPA": 3.0
+      },
+      {
+        "Grade": "C+",
+        "Percentage Range": "70% to less than 75%",
+        "GPA": 2.7
+      },
+      {
+        "Grade": "C",
+        "Percentage Range": "65% to less than 70%",
+        "GPA": 2.4
+      },
+      {
+        "Grade": "D+",
+        "Percentage Range": "60% to less than 65%",
+        "GPA": 2.2
+      },
+      {
+        "Grade": "D",
+        "Percentage Range": "50% to less than 60%",
+        "GPA": 2.0
+      },
+      {
+        "Grade": "F",
+        "Percentage Range": "Less than 50%",
+        "GPA": 0.0
+      }
+    ],
+
+    "Notes":
+    {
+      "InProgressCourses": "Courses still in progress are marked as 'Con'.",
+      "NoGPAFor": "Courses without credit hours are not included in GPA calculation.",
+      "PostCompletion": "Courses taken after graduation are not counted toward the cumulative GPA.",
+      "GPAIncludes": "Courses are included in GPA calculation whether passed or failed."
+    },
+
+    "GPA Calculation Method":
+    {
+      "Step1": "For each course, multiply the GPA value (based on the grade) by the number of credit hours.",
+      "Step2": "Sum the results of all courses.",
+      "Step3": "Divide the total grade points by the total number of registered credit hours.",
+      "Formula": "GPA = Total Grade Points / Total Registered Credit Hours"
+    },
+
+    "Clssification":"The general grade classification is determined based on the cumulative GPA",
+    "Final Grade Classification":
+    [
+      {
+        "Classification": "Very Poor",
+        "GPA Range": "Less than 1.5"
+      },
+      {
+        "Classification": "Poor",
+        "GPA Range": "1.5 to less than 2.0"
+      },
+      {
+        "Classification": "Pass",
+        "GPA Range": "2.0 to less than 2.5"
+      },
+      {
+        "Classification": "Good",
+        "GPA Range": "2.5 to less than 3.0"
+      },
+      {
+        "Classification": "Very Good",
+        "GPA Range": "3.0 to less than 3.5"
+      },
+      {
+        "Classification": "Excellent",
+        "GPA Range": "3.5 and above"
+      }
+    ]
+  }
+  
+]

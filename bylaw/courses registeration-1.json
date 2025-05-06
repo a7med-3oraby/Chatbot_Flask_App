@@ -1,0 +1,268 @@
+{
+
+    "title": "Courses for Registration in Each Level and Term - Course Curriculum",
+    "Curriculum":[
+    {
+      "level": "1",
+      "term": "Fall (First)",
+      "courses":[
+        { "code": "HU111", "name": "Technical Report Writing", "credits": 2 },
+        { "code": "HU112", "name": "Ethics and Professionalism", "credits": 2 },
+        { "code": "MA111", "name": "Math-1", "credits": 3 },
+        { "code": "IT111", "name": "Electronics", "credits": 3 },
+        { "code": "CS111", "name": "Fundamentals of Computer Science", "credits": 3 },
+        { "code": "HU121", "name": "Fundamentals of Economies", "credits": 2 }
+      ]
+    },
+    {
+      "level": "1",
+      "term": "Spring (Second)",
+      "courses": [
+        { "code": "HU124", "name": "Critical Thinking", "credits": 2 },
+        { "code": "MA112", "name": "Discrete Mathematics", "credits": 3 },
+        { "code": "MA113", "name": "Math-2", "credits": 3 },
+        { "code": "ST121", "name": "Probability and Statistics-1", "credits": 3 },
+        { "code": "CS112", "name": "Structured Programming", "credits": 3 },
+        { "code": "HU117", "name": "Human Rights", "credits": 2 }
+      ]
+    },
+    {
+      "level": "2",
+      "term": "Fall (First)",
+      "courses": [
+        { "code": "MA214", "name": "Math-3", "credits": 3 },
+        { "code": "CS213", "name": "Object Oriented Programming", "credits": 3 },
+        { "code": "ST222", "name": "Probability and Statistics-2", "credits": 3 },
+        { "code": "DS211", "name": "Intro to Operations Research and Decision Support", "credits": 3 },
+        { "code": "IT212", "name": "Logic Design", "credits": 3 },
+        { "code": "IT221", "name": "Computer Networks Technology", "credits": 3 }
+      ]
+    },
+    {
+      "level": "2",
+      "term": "Spring (Second)",
+      "courses": [
+        { "code": "CS214", "name": "Data Structures", "credits": 3 },
+        { "code": "IS211", "name": "Intro to Database Systems", "credits": 3 },
+        { "code": "CS251", "name": "Intro to Software Engineering", "credits": 3 },
+        { "code": "IS231", "name": "Web Technology", "credits": 3 },
+        { "code": "HU118", "name": "Selected Topics in Humanities", "credits": 2 }
+      ]
+    },
+    {
+      "level": "3 CS",
+      "term": "Fall (First)",
+      "courses": [
+        { "code": "CS341", "name": "Operating Systems", "credits": 3 },
+        { "code": "CS321", "name": "Algorithms Analysis and Design", "credits": 3 },
+        { "code": "CS331", "name": "Computer Organization and Architecture", "credits": 3 },
+        { "code": "CS351", "name": "Information Theory and Data Compression", "credits": 3 },
+        { "code": "CS352", "name": "Advanced Software Engineering", "credits": 3 },
+        { "code": "CS316", "name": "Advanced Data Structures", "credits": 3 }
+      ]
+    },
+    {
+      "level": "3 CS",
+      "term": "Spring (Second)",
+      "courses": [
+        { "code": "CS361", "name": "Artificial Intelligence", "credits": 3 },
+        { "code": "CS322", "name": "Concepts of Programming Languages", "credits": 3 },
+        { "code": "CS371", "name": "High Performance Computing", "credits": 3 },
+        { "code": "IT361", "name": "Computer Graphics", "credits": 3 },
+        { "code": "CS342", "name": "Advanced Operating Systems", "credits": 3 }
+      ]
+    },
+
+    {
+      "level": "3 IS",
+      "term": "Fall (First)",
+      "courses": [
+        { "code": "IS312", "name": "Database Management Systems", "credits": 3 },
+        { "code": "IS321", "name": "File Management and Processing", "credits": 3 },
+        { "code": "IS332", "name": "Analysis and Design of Information Systems", "credits": 3 },
+        { "code": "CS352", "name": "Advanced Software Engineering", "credits": 3 },
+        { "code": "IS341", "name": "Business Process Management", "credits": 3 }
+      ]
+    },
+    {
+      "level": "3 IS",
+      "term": "Spring (Second)",
+      "courses": [
+        { "code": "IS322", "name": "Information Retrieval", "credits": 3 },
+        { "code": "IS333", "name": "Web-based Information Systems Development", "credits": 3 },
+        { "code": "CS361", "name": "Artificial Intelligence", "credits": 3 },
+        { "code": "IS414", "name": "Managing and Modeling Big Data", "credits": 3 }
+      ]
+    },
+
+    {
+      "level": "3 IT",
+      "term": "Fall (First)",
+      "courses": [
+        { "code": "IT313", "name": "Computer Architecture", "credits": 3 },
+        { "code": "IT331", "name": "Data Communication", "credits": 3 },
+        { "code": "IT341", "name": "Signals and Systems", "credits": 3 },
+        { "code": "IT351", "name": "Information Theory and Data Compression", "credits": 3 },
+        { "code": "IT212", "name": "Logic Design", "credits": 3 }
+      ]
+    },
+    {
+      "level": "3 IT",
+      "term": "Spring (Second)",
+      "courses": [
+        { "code": "IT342", "name": "Digital Signal Processing", "credits": 3 },
+        { "code": "IT361", "name": "Computer Graphics", "credits": 3 },
+        { "code": "IT322", "name": "Advanced Computer Networks", "credits": 3 },
+        { "code": "IT352", "name": "Pattern Recognition", "credits": 3 }
+      ]
+    },
+
+    {
+      "level": "3 AI",
+      "term": "Fall (First)",
+      "courses": [
+        { "code": "CS361", "name": "Artificial Intelligence", "credits": 3 },
+        { "code": "CS462", "name": "Machine Learning", "credits": 3 },
+        { "code": "CS321", "name": "Algorithms Analysis and Design", "credits": 3 },
+        { "code": "ST222", "name": "Probability and Statistics-2", "credits": 3 }
+      ]
+    },
+    {
+      "level": "3 AI",
+      "term": "Spring (Second)",
+      "courses": [
+        { "code": "CS463", "name": "Natural Language Processing", "credits": 3 },
+        { "code": "CS464", "name": "Semantic Web and Ontology", "credits": 3 },
+        { "code": "CS465", "name": "Soft Computing", "credits": 3 },
+        { "code": "CS467", "name": "Selected Topics in Artificial Intelligence", "credits": 3 }
+      ]
+    },
+
+    {
+      "level": "3 DS",
+      "term": "Fall (First)",
+      "courses": [
+        { "code": "DS312", "name": "Decision Support and Future Studies Methodologies", "credits": 3 },
+        { "code": "DS321", "name": "Linear and Integer Programming", "credits": 3 },
+        { "code": "DS331", "name": "System Modeling and Simulation", "credits": 3 },
+        { "code": "ST222", "name": "Probability and Statistics-2", "credits": 3 }
+      ]
+    },
+    {
+      "level": "3 DS",
+      "term": "Spring (Second)",
+      "courses": [
+        { "code": "DS322", "name": "Non Linear Programming", "credits": 3 },
+        { "code": "DS341", "name": "Learning From Data", "credits": 3 },
+        { "code": "DS352", "name": "Production and Operations Management", "credits": 3 },
+        { "code": "DS425", "name": "Network Modeling and Optimization", "credits": 3 }
+      ]
+    },
+
+    {
+        "level": "4 CS",
+        "term": "Fall (First)",
+        "courses": [
+          { "code": "CS471", "name": "Graduation Project I", "credits": 3 },
+          { "code": "CS441", "name": "Compiler Design", "credits": 3 },
+          { "code": "CS443", "name": "Parallel and Distributed Systems", "credits": 3 },
+          { "code": "CS445", "name": "Security and Cryptography", "credits": 3 }
+        ]
+      },
+      {
+        "level": "4 CS",
+        "term": "Spring (Second)",
+        "courses": [
+          { "code": "CS472", "name": "Graduation Project II", "credits": 3 },
+          { "code": "CS446", "name": "Advanced Topics in Computer Science", "credits": 3 },
+          { "code": "CS447", "name": "Computer Vision", "credits": 3 },
+          { "code": "CS448", "name": "Cloud Computing", "credits": 3 }
+        ]
+      },
+
+      {
+        "level": "4 IS",
+        "term": "Fall (First)",
+        "courses": [
+          { "code": "IS471", "name": "Graduation Project I", "credits": 3 },
+          { "code": "IS442", "name": "Enterprise Resource Planning", "credits": 3 },
+          { "code": "IS443", "name": "E-Business Strategies", "credits": 3 },
+          { "code": "IS444", "name": "Information Systems Security", "credits": 3 }
+        ]
+      },
+      {
+        "level": "4 IS",
+        "term": "Spring (Second)",
+        "courses": [
+          { "code": "IS472", "name": "Graduation Project II", "credits": 3 },
+          { "code": "IS445", "name": "Data Warehousing and Mining", "credits": 3 },
+          { "code": "IS446", "name": "Knowledge Management Systems", "credits": 3 },
+          { "code": "IS447", "name": "Selected Topics in Information Systems", "credits": 3 }
+        ]
+      },
+
+      {
+        "level": "4 IT",
+        "term": "Fall (First)",
+        "courses": [
+          { "code": "IT471", "name": "Graduation Project I", "credits": 3 },
+          { "code": "IT441", "name": "Wireless and Mobile Networks", "credits": 3 },
+          { "code": "IT442", "name": "Network and Systems Security", "credits": 3 },
+          { "code": "IT443", "name": "Embedded Systems", "credits": 3 }
+        ]
+      },
+      {
+        "level": "4 IT",
+        "term": "Spring (Second)",
+        "courses": [
+          { "code": "IT472", "name": "Graduation Project II", "credits": 3 },
+          { "code": "IT444", "name": "Internet of Things (IoT)", "credits": 3 },
+          { "code": "IT445", "name": "Cloud and Edge Computing", "credits": 3 },
+          { "code": "IT446", "name": "Selected Topics in IT", "credits": 3 }
+        ]
+      },
+
+      {
+        "level": "4 AI",
+        "term": "Fall (First)",
+        "courses": [
+          { "code": "AI471", "name": "Graduation Project I", "credits": 3 },
+          { "code": "CS466", "name": "Robotics and Intelligent Systems", "credits": 3 },
+          { "code": "CS468", "name": "AI Ethics and Policy", "credits": 3 },
+          { "code": "AI444", "name": "Computer Vision and Image Processing", "credits": 3 }
+        ]
+      },
+      {
+        "level": "4 AI",
+        "term": "Spring (Second)",
+        "courses": [
+          { "code": "AI472", "name": "Graduation Project II", "credits": 3 },
+          { "code": "AI445", "name": "Reinforcement Learning", "credits": 3 },
+          { "code": "AI446", "name": "Advanced Machine Learning", "credits": 3 },
+          { "code": "AI447", "name": "Selected Topics in AI", "credits": 3 }
+        ]
+      },
+
+      {
+        "level": "4 DS",
+        "term": "Fall (First)",
+        "courses": [
+          { "code": "DS471", "name": "Graduation Project I", "credits": 3 },
+          { "code": "DS441", "name": "Decision Analysis", "credits": 3 },
+          { "code": "DS442", "name": "Systems Dynamics", "credits": 3 },
+          { "code": "DS443", "name": "Risk and Uncertainty in Decision Making", "credits": 3 }
+        ]
+      },
+      {
+        "level": "4 DS",
+        "term": "Spring (Second)",
+        "courses": [
+          { "code": "DS472", "name": "Graduation Project II", "credits": 3 },
+          { "code": "DS444", "name": "Multi-Criteria Decision Making", "credits": 3 },
+          { "code": "DS445", "name": "Business Intelligence and Analytics", "credits": 3 },
+          { "code": "DS446", "name": "Selected Topics in DS", "credits": 3 }
+        ]
+      }
+    ]
+}
+  

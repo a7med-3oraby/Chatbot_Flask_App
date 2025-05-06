@@ -1,0 +1,66 @@
+{
+  "title": "Bachelor's Degree Requirements in Computer and Information Sciences",
+  "total_required_credit_hours_for_graduation": 135,
+  "distribution":
+  {
+    "A. General Requirements":
+    {
+      "total_credit_hours": 12,
+      "type":
+      {
+        "mandatory": 6,
+        "elective": 6,
+        "note": "Elective hours are chosen by the student from general university courses."
+      }
+    },
+
+    "B. Faculty Requirements":
+    {
+      "total_credit_hours": 57,
+      "divided_into":
+      {
+        "Math and basic Sciences": {
+          "credit_hours": 21,
+          "type": "mandatory"
+        },
+
+        "Basic Computer Science": {
+          "credit_hours": 36,
+          "type": "mandatory"
+        }
+      }
+    },
+
+    "C. Specialization Requirements":
+    {
+      "total_credit_hours": 63,
+      "divided_into": 
+      {
+        "Applied Sciences - mandatory": {
+          "type": "mandatory",
+          "credit_hours": 39,
+          "note": "Depends on the student's major specialization."
+        },
+
+        "Applied Sciences - elective": {
+          "type": "elective",
+          "credit_hours": 18,
+          "note": "Elective within the student's specialization."
+        },
+
+        "Graduation Project": {
+          "credit_hours": 6,
+          "type": "mandatory"
+        }
+      }
+    },
+
+    "D. Training Field ":
+    {
+      "credit_hours": 3,
+      "prerequisites": ["Passing 60 Credit Hours"],
+      "description": "mandatory for all departments.",
+      "type": "mandatory"
+    }
+  }
+}
